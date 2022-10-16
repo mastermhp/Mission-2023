@@ -1,0 +1,119 @@
+body{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Creepster', cursive;
+font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+.flexible-container{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 60%;
+}
+.spanColor{
+    color: palevioletred;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.heading h1{
+    padding-left: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 700px;
+}
+#sideColor{
+    border-left: 3px solid;
+    border-image: linear-gradient(palevioletred, red);
+    border-image-slice: 1;
+}
+.mission-area{
+    margin-left: 10%;
+}
+.mission-heading{
+    padding-left: 28%;
+}
+.oneThird{
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.oneThird img{
+    width: 40%;
+}
+#oneThirdOne{
+    background-color: rgb(235, 243, 252);
+}
+#oneThirdTwo{
+    background-color:  rgb(253, 237, 248);
+}
+#oneThirdThree{
+    background-color: rgb(250, 236, 215);
+}
+.develop-section-width1{
+    width: 30%;
+    padding-left: 10%;
+}
+.develop-section-width1 img{
+    width: 90%;
+}
+.develop-section-width2{
+    width: 70%;
+    padding-right: 10%;
+}
+.community-section-width1{
+    width: 70%;
+    padding-left: 10%; 
+}
+.community-section-width2{
+    width: 30%;
+    padding-right: 10%; 
+}
+.community-section-width2 img{
+    width: 90%;
+}
+.application-area h1{
+    text-align: center;
+}
+.application-section-width1{
+    width: 50%;
+    padding-left: 15%; 
+}
+.application-section-width1 img{
+    width: 80%;
+}
+.application-section-width2{
+    width: 50%;
+    padding-right: 15%; 
+    padding-top: 8%;
+}
+.linkButton{
+    text-decoration: none;
+    background-image: linear-gradient(palevioletred, red);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700px;
+}
+.footer-area{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
